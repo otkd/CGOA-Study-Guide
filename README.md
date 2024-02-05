@@ -1,5 +1,7 @@
 # Certified GitOps Associate (CGOA) Study Guide
 
+![GitHub License](https://img.shields.io/github/license/otkd/%20CGOA-Study-Guide?link=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F4.0%2F)
+
 ![CGOA Banner](./assets/banner.png)
 
 ## Disclaimer
