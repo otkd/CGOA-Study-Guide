@@ -1,12 +1,12 @@
 # Certified GitOps Associate (CGOA) Study Guide
 
-![GitHub License](https://img.shields.io/github/license/otkd/%20CGOA-Study-Guide?link=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F4.0%2F)
+![GitHub License](https://img.shields.io/github/license/otkd/CGOA-Study-Guide?link=https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F4.0%2F)
 
 ![CGOA Banner](./assets/banner.png)
 
 ## Disclaimer
 
-This study guide is an **unofficial resource** created to assist candidates preparing for the Certified GitOps Associate (CGOA) beta exam. It has been compiled with the intention of providing support and resources for exam preparation due to the limited availability of dedicated materials for this specific certification and has not been endorsed by the Linux Foundation or any other official body associated with the CGOA certification.
+*This study guide is an **unofficial resource** created to assist candidates preparing for the Certified GitOps Associate (CGOA) beta exam. It has been compiled with the intention of providing support and resources for exam preparation due to the limited availability of dedicated materials for this specific certification and has not been endorsed by the Linux Foundation or any other official body associated with the CGOA certification.*
 
 ## Introduction
 
@@ -54,7 +54,7 @@ The Certified GitOps Associate (CGOA) is a certification offered by the [Linux F
 
 ## Background
 
-**Resources:**
+Resources:
 
 - [Introduction to DevOps and Site Reliability Engineering (LFS162)](https://training.linuxfoundation.org/training/introduction-to-devops-and-site-reliability-engineering-lfs162/) - Training Course (Free)
 - [Introduction to GitOps (LFS169)](https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/) - Training Course (Free)
@@ -79,7 +79,7 @@ The Certified GitOps Associate (CGOA) is a certification offered by the [Linux F
 
 > When a system's actual state has moved or is in the process of moving away from the [desired state](#desired-state), this is often referred to as drift.
 
-**Resources:**
+Resources:
 
 - [You Aren't Doing GitOps Without Drift Detection](https://www.weave.works/blog/you-aren-t-doing-gitops-without-drift-detection) - Article
 
@@ -99,7 +99,7 @@ The Certified GitOps Associate (CGOA) is a certification offered by the [Linux F
 
 > A system for storing immutable versions of [desired state](#desired-state) declarations. This state store should provide access control and auditing on the changes to the Desired State. Git, from which GitOps derives its name, is the canonical example used as this state store but any other system that meets these criteria may be used. In all cases, these state stores must be properly configured and precautions must be taken to comply with requirements set out in the GitOps Principles.
 
-**State Store = Single Source of Truth**
+- **State Store = Single Source of Truth**
 
 #### Feedback Loop
 
@@ -111,13 +111,13 @@ Rollback is the process of reverting a system to a previous state. In GitOps, th
 
 `git revert` is an example of a rollback operation in Git.
 
-**Resources:**
+Resources:
 
 - [Rolling Back a Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-back-a-deployment) - Kubernetes Docs
 
 ### GitOps Principles - 30%
 
-**Resources:**
+Resources:
 
 - [OpenGitOps Documents](https://github.com/open-gitops/documents) - OpenGitOps Docs
 - [GitOps Principles](https://www.harness.io/blog/gitops-principles) - Article
@@ -148,7 +148,7 @@ Rollback is the process of reverting a system to a previous state. In GitOps, th
 
 Configuration as Code (CaC) involves managing and provisioning infrastructure through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools. This practice enables developers and IT operations teams to automatically manage and provision their infrastructure using code. CaC is a key component of GitOps, as it allows for the desired state of infrastructure to be described declaratively and managed alongside application code.
 
-**Resources:**
+Resources:
 
 - [Configuration as Code](https://circleci.com/blog/configuration-as-code/) - Article
 - [Comparing Infrastructure as Code and GitOps for Platform Teams](https://thenewstack.io/comparing-infrastructure-as-code-and-gitops-for-platform-teams/) - Article
@@ -157,7 +157,7 @@ Configuration as Code (CaC) involves managing and provisioning infrastructure th
 
 Infrastructure as Code (IaC) is a key practice within DevOps that involves managing and provisioning computing infrastructure through code instead of through manual processes. With IaC, infrastructure is provisioned and managed using code and software development techniques, such as version control and continuous integration. IaC is foundational to GitOps, enabling the automatic, consistent deployment of infrastructure alongside applications.
 
-**Resources:**
+Resources:
 
 - [What is Infrastructure as Code?](https://www.hashicorp.com/resources/what-is-infrastructure-as-code) - Article
 - [Getting Started with Infrastructure as Code](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code) - Terraform Docs
@@ -167,7 +167,7 @@ Infrastructure as Code (IaC) is a key practice within DevOps that involves manag
 - **DevOps** is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and provide continuous delivery with high software quality. GitOps can be seen as an evolution of DevOps principles, focused on using Git as a single source of truth for declarative infrastructure and applications.
 - **DevSecOps** extends DevOps by integrating security practices into the DevOps process, ensuring that security is built into the software development lifecycle. GitOps can be used to enforce security policies and best practices across the software development lifecycle.
 
-**Resources:**
+Resources:
 
 - [What is DevOps?](https://about.gitlab.com/topics/devops/) - Article
 - [Introduction to DevSecOps](https://www.redhat.com/en/topics/devops/what-is-devsecops) - Article
@@ -179,7 +179,7 @@ Infrastructure as Code (IaC) is a key practice within DevOps that involves manag
 - **Continuous Integration (CI)**: The automated process of integrating code changes from multiple contributors into a shared repository. This process includes automated testing to validate code changes before they are merged, ensuring that the codebase remains stable and functional.
 - **Continuous Delivery (CD)**: The practice of automating the software delivery process to ensure that code changes can be deployed to production at any time. GitOps can be used to automate the continuous delivery process, ensuring that the [desired state](#desired-state) of the system is always reflected in the production environment.
 
-**Resources:**
+Resources:
 
 - [What is Continuous Integration?](https://www.atlassian.com/continuous-delivery/continuous-integration) - Article
 - [What is Continuous Delivery?](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment) - Article
@@ -192,7 +192,7 @@ Infrastructure as Code (IaC) is a key practice within DevOps that involves manag
 - **Rolling Updates**: Kubernetes supports rolling updates natively, allowing updates to be applied incrementally without taking the service down. This strategy updates pods one by one, ensuring that a certain number of old and new pods are running simultaneously, which minimizes downtime and ensures that at least part of the application remains available during the update.
 - **Blue-Green**: Involves running two identical environments ("blue" for the current version and "green" for the new version) and switching traffic from blue to green once the new version is verified to be stable. This pattern is useful for minimizing downtime and risk during deployments.
 
-**Resources:**
+Resources:
 
 - [Top 6 Kubernetes Deployment Strategies and How to Choose](https://codefresh.io/learn/kubernetes-deployment/top-6-kubernetes-deployment-strategies-and-how-to-choose/) - Article
 - [Blue-Green Deployment](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment) - Article
@@ -203,7 +203,7 @@ Infrastructure as Code (IaC) is a key practice within DevOps that involves manag
 - **Shadow**/Blue-Green Mirroring: This pattern involves deploying the new version alongside the old version in such a way that the new version processes real-world traffic in parallel without affecting the end-user experience, primarily for testing purposes.
 - **A/B Testing**/Traffic Splitting: Similar to canary releases but focuses more on comparing user behavior between the old and new versions to make data-driven decisions on feature adoption.
 
-**Resources:**
+Resources:
 
 - [Guide to Flagger](https://www.weave.works/technologies/flagger/) - Weave Works Docs
 - [Flux Progressive Delivery](https://fluxcd.io/flux/concepts/#progressive-delivery) - Flux Docs
@@ -222,19 +222,19 @@ Infrastructure as Code (IaC) is a key practice within DevOps that involves manag
 
 - **Event-Driven**: While not the primary model in GitOps, event-driven mechanisms can complement GitOps by triggering actions based on specific events.
 
-**Resources:**
+Resources:
 
 - [GitOps: The Push and Pull Approach](https://www.harness.io/blog/gitops-the-push-and-pull-approach) - Article
 - [Understanding Pull-Based GitOps](https://www.weave.works/blog/gitops-operations-by-pull-request) - Article
 
 #### Architecture Patterns (in-cluster and external reconciler, state store management, etc.)
 
-- In-Cluster Reconciler: A software agent that runs within the cluster and is responsible for monitoring the state of the cluster and applying the desired state.
-- External Reconciler: Similar to in-cluster reconcilers, but run outside the cluster, often used for multi-cluster management or for managing resources that are not directly accessible from within the cluster.
-- State Store Management: Structuring and managing the state store to ensure immutability, versioning, and complete version history.
-- Secret Management: Managing secrets in a secure and compliant manner, often using tools like Vault, Sealed Secrets, or GitOps-specific solutions like KubeSecrets.
+- **In-Cluster Reconciler**: A software agent that runs within the cluster and is responsible for monitoring the state of the cluster and applying the desired state.
+- **External Reconciler**: Similar to in-cluster reconcilers, but run outside the cluster, often used for multi-cluster management or for managing resources that are not directly accessible from within the cluster.
+- **State Store Management**: Structuring and managing the state store to ensure immutability, versioning, and complete version history.
+- **Secrets Management**: Managing secrets in a secure and compliant manner, often using tools like Vault, Sealed Secrets, or GitOps-specific solutions like KubeSecrets.
 
-**Resources:**
+Resources:
 
 - [Ways of structuring your repositories](https://fluxcd.io/flux/guides/repository-structure/) - Flux Docs
 - [Managing the 'Git' in 'GitOps': 4 Ways to Structure Code in Your GitOps Repos](https://www.harness.io/blog/gitops-repo-structure) - Article
@@ -246,22 +246,22 @@ Infrastructure as Code (IaC) is a key practice within DevOps that involves manag
 
 #### Manifest Format and Packaging
 
-- Kustomize: Offers a template-free way to customize application configuration that simplifies the declaration of application manifests for Kubernetes.
-- Helm: Provides packaging of Kubernetes applications into charts, making it easy to share and distribute a wide range of applications.
-- Declaritive YAML/JSON: A format for expressing the desired state of a system in a way that is both human-readable and machine-readable.
+- **Kustomize**: Offers a template-free way to customize application configuration that simplifies the declaration of application manifests for Kubernetes.
+- **Helm**: Provides packaging of Kubernetes applications into charts, making it easy to share and distribute a wide range of applications.
+- **Declaritive YAML/JSON**: A format for expressing the desired state of a system in a way that is both human-readable and machine-readable.
 
-**Resources:**
+Resources:
 
 - [Kustomize Documentation](https://kubectl.docs.kubernetes.io/guides/introduction/kustomize/) - Kustomize Docs
 - [Putting Helm at the Center of Your GitOps Pipeline](https://www.weave.works/blog/putting-helm-at-gitops-pipeline) - Article
 
 #### State Store Systems (Git and alternatives)
 
-- Git: A distributed version control system that is widely used for source code management and is the canonical example of a state store used in GitOps.
-- OCI Registry: A container registry that is used to store and distribute container images.
-- S3: A scalable object storage service that is used to store and retrieve data.
+- **Git**: A distributed version control system that is widely used for source code management and is the canonical example of a state store used in GitOps.
+- **OCI Registry**: A container registry that is used to store and distribute container images.
+- **S3**: A scalable object storage service that is used to store and retrieve data.
 
-**Resources:**
+Resources:
 
 - [What is Git?](https://www.atlassian.com/git/tutorials/what-is-git) - Article
 - [GitOps with OCI Artifacts and Config Sync](https://cloud.google.com/blog/products/containers-kubernetes/gitops-with-oci-artifacts-and-config-sync) - Article
@@ -271,11 +271,11 @@ Infrastructure as Code (IaC) is a key practice within DevOps that involves manag
 
 #### Reconciliation Engines (ArgoCD, Flux, and alternatives)
 
-- ArgoCD: A declarative, GitOps continuous delivery tool for Kubernetes.
-- Flux: A tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy.
-- Jenkins X: An open-source system that provides pipeline automation, GitOps, and continuous delivery for cloud-native applications on Kubernetes.
+- **ArgoCD**: A declarative, GitOps continuous delivery tool for Kubernetes.
+- **Flux**: A tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy.
+- **Jenkins X**: An open-source system that provides pipeline automation, GitOps, and continuous delivery for cloud-native applications on Kubernetes.
 
-**Resources:**
+Resources:
 
 - [ArgoCD Documentation](https://argoproj.github.io/argo-cd/) - ArgoCD Docs
 - [Flux Documentation](https://fluxcd.io/docs/) - Flux Docs
@@ -283,13 +283,13 @@ Infrastructure as Code (IaC) is a key practice within DevOps that involves manag
 
 #### Interoperability with Notifications, Observability, and Continuous Integration Tools
 
-- DORA Metrics: A set of metrics that are used to measure the performance of software delivery and operational processes.
-- Keptn: Integrates with Flux and ArgoCD to provide automated continuous delivery and operations for cloud-native applications.
-- Prometheus & Alertmanager: Used for monitoring and alerting, providing a rich set of metrics and alerting capabilities.
-- Jenkins: A popular open-source automation server used to automate the building, testing, and deployment of software.
-- Slack & Microsoft Teams: Popular messaging platforms used for notifications and collaboration.
+- **DORA Metrics**: A set of metrics that are used to measure the performance of software delivery and operational processes.
+- **Keptn**: Integrates with Flux and ArgoCD to provide automated continuous delivery and operations for cloud-native applications.
+- **Prometheus & Alertmanager**: Used for monitoring and alerting, providing a rich set of metrics and alerting capabilities.
+- **Jenkins**: A popular open-source automation server used to automate the building, testing, and deployment of software.
+- **Slack** & Microsoft Teams: Popular messaging platforms used for notifications and collaboration.
 
-**Resources:**
+Resources:
 
 - [Using the Four Keys to Measure Your DevOps Performance](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) - Article
 - [Keptn Core Concepts](https://keptn.sh/latest/docs/core-concepts/) - Keptn Docs
