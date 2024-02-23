@@ -6,7 +6,7 @@
 
 ## Disclaimer
 
-*This study guide is an **unofficial resource** created to assist candidates preparing for the Certified GitOps Associate (CGOA) beta exam. It has been compiled with the intention of providing support and resources for exam preparation due to the limited availability of dedicated materials for this specific certification and has not been endorsed by the Linux Foundation or any other official body associated with the CGOA certification.*
+*This study guide is an **unofficial resource** created to assist candidates preparing for the Certified GitOps Associate (CGOA) exam. Originally compiled during the beta due to the limited availability of dedicated materials for the CGOA, as such it has not been endorsed by the Linux Foundation or any other official body associated with the CGOA certification.*
 
 ## Introduction
 
@@ -283,7 +283,11 @@ Resources:
 
 #### Interoperability with Notifications, Observability, and Continuous Integration Tools
 
-- **DORA Metrics**: A set of metrics that are used to measure the performance of software delivery and operational processes.
+- **DORA Metrics**: Metrics that are used to measure the performance of software delivery and operational processes including:
+  - Deployment Frequency: The frequency of deployments to production
+  - Lead Time for Changes: The time it takes to go from code committed to code successfully running in production
+  - Change Failure Rate: The percentage of changes that result in a failure in production
+  - Time to Restore Service: The time it takes to restore service after a failure
 - **Keptn**: Integrates with Flux and ArgoCD to provide automated continuous delivery and operations for cloud-native applications.
 - **Prometheus & Alertmanager**: Used for monitoring and alerting, providing a rich set of metrics and alerting capabilities.
 - **Jenkins**: A popular open-source automation server used to automate the building, testing, and deployment of software.
