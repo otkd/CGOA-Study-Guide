@@ -6,7 +6,7 @@
 
 ## Disclaimer
 
-*This study guide is an **unofficial resource** created to assist candidates preparing for the Certified GitOps Associate (CGOA) beta exam. It has been compiled with the intention of providing support and resources for exam preparation due to the limited availability of dedicated materials for this specific certification and has not been endorsed by the Linux Foundation or any other official body associated with the CGOA certification.*
+*This study guide is an **unofficial resource** created to assist candidates preparing for the Certified GitOps Associate (CGOA) exam. Originally compiled during the beta due to the limited availability of dedicated materials for the CGOA, as such it has not been endorsed by the Linux Foundation or any other official body associated with the CGOA certification.*
 
 ## Introduction
 
