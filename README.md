@@ -56,8 +56,8 @@ The Certified GitOps Associate (CGOA) is a certification offered by the [Linux F
 
 Resources:
 
-- [Introduction to DevOps and Site Reliability Engineering (LFS162)](https://training.linuxfoundation.org/training/introduction-to-devops-and-site-reliability-engineering-lfs162/) - Training Course (Free)
-- [Introduction to GitOps (LFS169)](https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/) - Training Course (Free)
+- [Introduction to DevOps and Site Reliability Engineering (LFS162)](https://training.linuxfoundation.org/training/introduction-to-devops-and-site-reliability-engineering-lfs162/) - Linux Foundation Training Course (Free)
+- [Introduction to GitOps (LFS169)](https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/) - Linux Foundation Training Course (Free)
 
 ## Domains & Competencies
 
@@ -81,7 +81,7 @@ Resources:
 
 Resources:
 
-- [You Aren't Doing GitOps Without Drift Detection](https://www.weave.works/blog/you-aren-t-doing-gitops-without-drift-detection) - Article
+- [You Aren't Doing GitOps Without Drift Detection](https://www.weave.works/blog/you-aren-t-doing-gitops-without-drift-detection) - Weave Works Blog
 
 #### State Reconciliation
 
@@ -120,7 +120,7 @@ Resources:
 Resources:
 
 - [OpenGitOps Documents](https://github.com/open-gitops/documents) - OpenGitOps Docs
-- [GitOps Principles](https://www.harness.io/blog/gitops-principles) - Article
+- [GitOps Principles](https://www.harness.io/blog/gitops-principles) - Harness Blog
 
 > GitOps is a set of principles for operating and managing software systems. These principles are derived from modern software operations but are also rooted in pre-existing and widely adopted best practices.
 >
@@ -150,8 +150,8 @@ Configuration as Code (CaC) involves managing and provisioning infrastructure th
 
 Resources:
 
-- [Configuration as Code](https://circleci.com/blog/configuration-as-code/) - Article
-- [Comparing Infrastructure as Code and GitOps for Platform Teams](https://thenewstack.io/comparing-infrastructure-as-code-and-gitops-for-platform-teams/) - Article
+- [Configuration as Code](https://circleci.com/blog/configuration-as-code/) - CircleCI Blog
+- [Comparing Infrastructure as Code and GitOps for Platform Teams](https://thenewstack.io/comparing-infrastructure-as-code-and-gitops-for-platform-teams/) - The New Stack Article
 
 #### Infrastructure as Code (IaC)
 
@@ -159,7 +159,7 @@ Infrastructure as Code (IaC) is a key practice within DevOps that involves manag
 
 Resources:
 
-- [What is Infrastructure as Code?](https://www.hashicorp.com/resources/what-is-infrastructure-as-code) - Article
+- [What is Infrastructure as Code?](https://www.hashicorp.com/resources/what-is-infrastructure-as-code) - HashiCorp Article
 - [Getting Started with Infrastructure as Code](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code) - Terraform Docs
 
 #### DevOps and DevSecOps
@@ -169,10 +169,10 @@ Resources:
 
 Resources:
 
-- [What is DevOps?](https://about.gitlab.com/topics/devops/) - Article
-- [Introduction to DevSecOps](https://www.redhat.com/en/topics/devops/what-is-devsecops) - Article
-- [Trusted Delivery with GitOps and Policy as Code](https://www.weave.works/blog/trusted-delivery-with-gitops-and-policy-as-code) - Article
-- [What Is GitOps? How Git Can Make DevOps Even Better](https://codefresh.io/learn/gitops/) - Article
+- [What is DevOps?](https://about.gitlab.com/topics/devops/) - GitLab Article
+- [Introduction to DevSecOps](https://www.redhat.com/en/topics/devops/what-is-devsecops) - Red Hat Article
+- [Trusted Delivery with GitOps and Policy as Code](https://www.weave.works/blog/trusted-delivery-with-gitops-and-policy-as-code) - Weave Works Blog
+- [What Is GitOps? How Git Can Make DevOps Even Better](https://codefresh.io/learn/gitops/) - Codefresh Article
 
 #### CI and CD
 
@@ -181,8 +181,8 @@ Resources:
 
 Resources:
 
-- [What is Continuous Integration?](https://www.atlassian.com/continuous-delivery/continuous-integration) - Article
-- [What is Continuous Delivery?](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment) - Article
+- [What is Continuous Integration?](https://www.atlassian.com/continuous-delivery/continuous-integration) - Atlassian Article
+- [What is Continuous Delivery?](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment) - Atlassian Article
 
 ### GitOps Patterns - 20%
 
@@ -194,8 +194,8 @@ Resources:
 
 Resources:
 
-- [Top 6 Kubernetes Deployment Strategies and How to Choose](https://codefresh.io/learn/kubernetes-deployment/top-6-kubernetes-deployment-strategies-and-how-to-choose/) - Article
-- [Blue-Green Deployment](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment) - Article
+- [Top 6 Kubernetes Deployment Strategies and How to Choose](https://codefresh.io/learn/kubernetes-deployment/top-6-kubernetes-deployment-strategies-and-how-to-choose/) - Codefresh Article
+- [Blue-Green Deployment](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment) - Red Hat Article
 
 #### Progressive Delivery Patterns
 
@@ -208,7 +208,7 @@ Resources:
 - [Guide to Flagger](https://www.weave.works/technologies/flagger/) - Weave Works Docs
 - [Flux Progressive Delivery](https://fluxcd.io/flux/concepts/#progressive-delivery) - Flux Docs
 - [Flagger Deployment Strategies](https://docs.flagger.app/usage/deployment-strategies) - Flagger Docs
-- [What are Feature Flags?](https://launchdarkly.com/blog/what-are-feature-flags/) - Article
+- [What are Feature Flags?](https://launchdarkly.com/blog/what-are-feature-flags/) - LaunchDarkly Blog
 - [Argo Rollouts](https://argoproj.github.io/argo-rollouts/) - Argo Rollouts Docs
 
 #### Pull vs. Event-driven
@@ -224,8 +224,8 @@ Resources:
 
 Resources:
 
-- [GitOps: The Push and Pull Approach](https://www.harness.io/blog/gitops-the-push-and-pull-approach) - Article
-- [Understanding Pull-Based GitOps](https://www.weave.works/blog/gitops-operations-by-pull-request) - Article
+- [GitOps: The Push and Pull Approach](https://www.harness.io/blog/gitops-the-push-and-pull-approach) - Harness Blog
+- [Understanding Pull-Based GitOps](https://www.weave.works/blog/gitops-operations-by-pull-request) - Weave Works Blog
 
 #### Architecture Patterns (in-cluster and external reconciler, state store management, etc.)
 
@@ -237,10 +237,10 @@ Resources:
 Resources:
 
 - [Ways of structuring your repositories](https://fluxcd.io/flux/guides/repository-structure/) - Flux Docs
-- [Managing the 'Git' in 'GitOps': 4 Ways to Structure Code in Your GitOps Repos](https://www.harness.io/blog/gitops-repo-structure) - Article
-- [Argo CD Architectures Explained](https://akuity.io/blog/argo-cd-architectures-explained/) - Article
-- [The Basics of GitOps Secrets Management](https://www.harness.io/blog/gitops-secrets) - Article
-- [What is Multi-Cloud GitOps?](https://www.redhat.com/en/topics/devops/what-is-multicloud-gitops) - Article
+- [Managing the 'Git' in 'GitOps': 4 Ways to Structure Code in Your GitOps Repos](https://www.harness.io/blog/gitops-repo-structure) - Harness Blog
+- [Argo CD Architectures Explained](https://akuity.io/blog/argo-cd-architectures-explained/) - Akuity Blog
+- [The Basics of GitOps Secrets Management](https://www.harness.io/blog/gitops-secrets) - Harness Blog
+- [What is Multi-Cloud GitOps?](https://www.redhat.com/en/topics/devops/what-is-multicloud-gitops) - Red Hat Article
 
 ### Tooling - 14%
 
@@ -253,7 +253,7 @@ Resources:
 Resources:
 
 - [Kustomize Documentation](https://kubectl.docs.kubernetes.io/guides/introduction/kustomize/) - Kustomize Docs
-- [Putting Helm at the Center of Your GitOps Pipeline](https://www.weave.works/blog/putting-helm-at-gitops-pipeline) - Article
+- [Putting Helm at the Center of Your GitOps Pipeline](https://www.weave.works/blog/putting-helm-at-gitops-pipeline) - Weave Works Blog
 
 #### State Store Systems (Git and alternatives)
 
@@ -263,11 +263,11 @@ Resources:
 
 Resources:
 
-- [What is Git?](https://www.atlassian.com/git/tutorials/what-is-git) - Article
-- [GitOps with OCI Artifacts and Config Sync](https://cloud.google.com/blog/products/containers-kubernetes/gitops-with-oci-artifacts-and-config-sync) - Article
-- [GitOps Use Cases You May Not Have Considered](https://thenewstack.io/gitops-use-cases-you-may-not-have-considered/) - Article
-- [Flux with Buckets: Is this still GitOps?](https://blog.ediri.io/flux-with-buckets-is-this-still-gitops) - Article
-- [Single Source of Truth Architecture](https://www.redhat.com/architect/single-source-truth-architecture) - Article
+- [What is Git?](https://www.atlassian.com/git/tutorials/what-is-git) - Atlassian Git Tutorials
+- [GitOps with OCI Artifacts and Config Sync](https://cloud.google.com/blog/products/containers-kubernetes/gitops-with-oci-artifacts-and-config-sync) - Google Cloud Blog
+- [GitOps Use Cases You May Not Have Considered](https://thenewstack.io/gitops-use-cases-you-may-not-have-considered/) - The New Stack Article
+- [Flux with Buckets: Is this still GitOps?](https://blog.ediri.io/flux-with-buckets-is-this-still-gitops) - Ediri Blog
+- [Single Source of Truth Architecture](https://www.redhat.com/architect/single-source-truth-architecture) - Red Hat Article
 
 #### Reconciliation Engines (ArgoCD, Flux, and alternatives)
 
@@ -279,7 +279,7 @@ Resources:
 
 - [ArgoCD Documentation](https://argoproj.github.io/argo-cd/) - ArgoCD Docs
 - [Flux Documentation](https://fluxcd.io/docs/) - Flux Docs
-- [Jenkins X Documentation](https://jenkins-x.io/docs/) - Jenkins X Docs
+- [Jenkins X Documentation](https://jenkins-x.io/v3/) - Jenkins X Docs
 
 #### Interoperability with Notifications, Observability, and Continuous Integration Tools
 
@@ -295,7 +295,7 @@ Resources:
 
 Resources:
 
-- [Using the Four Keys to Measure Your DevOps Performance](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) - Article
+- [Using the Four Keys to Measure Your DevOps Performance](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) - Google Cloud Blog
 - [Keptn Core Concepts](https://keptn.sh/latest/docs/core-concepts/) - Keptn Docs
 - [Flux Alerts](https://fluxcd.io/flux/monitoring/alerts/) - Flux Docs
 - [Flux Prometheus metrics](https://fluxcd.io/flux/monitoring/metrics/) - Flux Docs
@@ -305,6 +305,6 @@ Resources:
 
 ## Additional Resources
 
-- [Path to GitOps](https://developers.redhat.com/e-books/path-gitops) - eBook (Free)
+- [Path to GitOps](https://developers.redhat.com/e-books/path-gitops) - Red Hat eBook (Free)
 - [GitOps Guide to the Galaxy](https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqfGCkI28cUMbNhPhsnj4nq3) - YouTube Playlist
-- [GitOps Cookbook](https://developers.redhat.com/e-books/gitops-cookbook) - eBook (Free)
+- [GitOps Cookbook](https://developers.redhat.com/e-books/gitops-cookbook) - Red Hat eBook (Free)
