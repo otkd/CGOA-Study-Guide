@@ -10,7 +10,11 @@
 
 ## Introduction
 
-The Certified GitOps Associate (CGOA) is a certification offered by the [Linux Foundation](https://www.linuxfoundation.org/). More information about the certification can be found on the [official exam page](https://training.linuxfoundation.org/certification/certified-gitops-associate-cgoa/).
+The Certified GitOps Associate (CGOA) is a certification offered by the [Linux Foundation](https://www.linuxfoundation.org/):
+
+> The purpose of the Certified GitOps Associate (CGOA) certification is to provide assurance that CGOAs can effectively demonstrate their understanding of GitOps principles, terminology, and best practices in setting up a GitOps managed software system in addition to related practices such as Configuration of Code, Infrastructure as Code, DevOps & DevSecOps, and CI & CD and how to map them to GitOps.
+
+More information about the certification can be found on the [official exam page](https://training.linuxfoundation.org/certification/certified-gitops-associate-cgoa/).
 
 ## Table of Contents
 
