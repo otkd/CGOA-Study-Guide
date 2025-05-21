@@ -111,7 +111,7 @@ Resources:
 
 #### Rollback
 
-Rollback is the process of reverting a system to a previous state. In GitOps, the rollback process is often automated by changing the desired state to a previous version and allowing the reconciliation process to apply that state.
+> Rollback is the process of reverting a system to a previous state. In GitOps, the rollback process is often automated by changing the desired state to a previous version and allowing the reconciliation process to apply that state.
 
 `git revert` is an example of a rollback operation in Git.
 
