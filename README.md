@@ -83,9 +83,9 @@ Resources:
 
 > When a system's actual state has moved or is in the process of moving away from the [desired state](#desired-state), this is often referred to as drift.
 
-Resources:
 
-- [You Aren't Doing GitOps Without Drift Detection](https://www.weave.works/blog/you-aren-t-doing-gitops-without-drift-detection) - Weave Works Blog
+Resources:
+- [Solving configuration drift using GitOps with Argo CD](https://www.cncf.io/blog/2020/12/17/solving-configuration-drift-using-gitops-with-argo-cd) - CNCF Blog
 
 #### State Reconciliation
 
@@ -175,7 +175,7 @@ Resources:
 
 - [What is DevOps?](https://about.gitlab.com/topics/devops/) - GitLab Article
 - [Introduction to DevSecOps](https://www.redhat.com/en/topics/devops/what-is-devsecops) - Red Hat Article
-- [Trusted Delivery with GitOps and Policy as Code](https://www.weave.works/blog/trusted-delivery-with-gitops-and-policy-as-code) - Weave Works Blog
+- [Declarative Compliance With Policy-as-Code and GitOps](https://devops.com/declarative-compliance-with-policy-as-code-and-gitops/) - DevOps.com
 - [What Is GitOps? How Git Can Make DevOps Even Better](https://codefresh.io/learn/gitops/) - Codefresh Article
 
 #### CI and CD
@@ -209,7 +209,7 @@ Resources:
 
 Resources:
 
-- [Guide to Flagger](https://www.weave.works/technologies/flagger/) - Weave Works Docs
+- [Flagger FAQ](https://docs.flagger.app/faq) - Flagger Docs
 - [Flux Progressive Delivery](https://fluxcd.io/flux/concepts/#progressive-delivery) - Flux Docs
 - [Flagger Deployment Strategies](https://docs.flagger.app/usage/deployment-strategies) - Flagger Docs
 - [What are Feature Flags?](https://launchdarkly.com/blog/what-are-feature-flags/) - LaunchDarkly Blog
@@ -229,7 +229,7 @@ Resources:
 Resources:
 
 - [GitOps: The Push and Pull Approach](https://www.harness.io/blog/gitops-the-push-and-pull-approach) - Harness Blog
-- [Understanding Pull-Based GitOps](https://www.weave.works/blog/gitops-operations-by-pull-request) - Weave Works Blog
+- [3 Ways to approach GitOps](https://about.gitlab.com/blog/gitops-done-3-ways/) - GitLab Blog
 
 #### Architecture Patterns (in-cluster and external reconciler, state store management, etc.)
 
@@ -257,7 +257,7 @@ Resources:
 Resources:
 
 - [Kustomize Documentation](https://kubectl.docs.kubernetes.io/guides/introduction/kustomize/) - Kustomize Docs
-- [Putting Helm at the Center of Your GitOps Pipeline](https://www.weave.works/blog/putting-helm-at-gitops-pipeline) - Weave Works Blog
+- [What is Helm?](https://www.redhat.com/en/topics/devops/what-is-helm) - Red Hat Article
 
 #### State Store Systems (Git and alternatives)
 
